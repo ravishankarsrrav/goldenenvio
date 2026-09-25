@@ -1,31 +1,49 @@
-[build]
-  publish = "."
+# Netlify configuration for static HTML deployment
 
 [[redirects]]
   from = "/about"
   to = "/about.html"
-  status = 200
-
+  status = 301
+[[redirects]]
+  from = "/about/"
+  to = "/about.html"
+  status = 301
 [[redirects]]
   from = "/account"
   to = "/account.html"
-  status = 200
-
+  status = 301
+[[redirects]]
+  from = "/account/"
+  to = "/account.html"
+  status = 301
 [[redirects]]
   from = "/contact"
   to = "/contact.html"
-  status = 200
-
+  status = 301
+[[redirects]]
+  from = "/contact/"
+  to = "/contact.html"
+  status = 301
 [[redirects]]
   from = "/pricing"
   to = "/pricing.html"
-  status = 200
-
+  status = 301
+[[redirects]]
+  from = "/pricing/"
+  to = "/pricing.html"
+  status = 301
 [[redirects]]
   from = "/products"
   to = "/products.html"
+  status = 301
+[[redirects]]
+  from = "/products/"
+  to = "/products.html"
+  status = 301
+[[redirects]]
+  from = "/"
+  to = "/index.html"
   status = 200
-
 [[redirects]]
   from = "/*"
   to = "/404.html"
