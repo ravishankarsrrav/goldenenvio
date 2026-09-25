@@ -1,5 +1,3 @@
-# Netlify configuration for static HTML deployment
-
 [[redirects]]
   from = "/about"
   to = "/about.html"
@@ -44,7 +42,3 @@
   from = "/"
   to = "/index.html"
   status = 200
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
